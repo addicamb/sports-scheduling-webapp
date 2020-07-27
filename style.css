@@ -1,0 +1,70 @@
+/* @import url(dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css); */
+/* @import url(dist/css/icons/themify-icons/themify-icons.css); */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+/* font-family: Century Gothic; */
+}
+#bg{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* @media screen and (max-width: 1000px) {
+	#bg{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bg1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+	}
+} */
+#logotext{
+	font-weight: 600;
+	background: -webkit-linear-gradient(-45deg, white, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.footer{
+		padding: 20px;
+		background-color: black;
+		color: #B7B7B7;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+.dropdown-menu{
+	background-color: black;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-item{
+	color:grey;
+}
+
+.middle {
+	opacity: 0.5;
+	position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+	color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+.middle hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, gray, white, gray);
+}
+li{
+	margin: 0px 1px;
+}
